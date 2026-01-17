@@ -1,8 +1,8 @@
-# ?? Fitness Tracker
+# Fitness Tracker
 
 A Windows desktop application built with C# and Windows Forms that helps users track their fitness activities and monitor progress toward their personal calorie-burning goals.
 
-## ?? Table of Contents
+## Table of Contents
 
 - [Features](#features)
 - [Project Structure](#project-structure)
@@ -15,7 +15,7 @@ A Windows desktop application built with C# and Windows Forms that helps users t
 
 ---
 
-## ? Features
+## Features
 
 ### User Management
 - **User Registration**: Create new accounts with secure password validation
@@ -24,8 +24,8 @@ A Windows desktop application built with C# and Windows Forms that helps users t
 
 ### Activity Tracking
 - **Multiple Activity Types**:
-  - ?? **Walking**: Track steps, distance, and time
-  - ?? **Swimming**: Track laps, time, and heart rate
+  - **Walking**: Track steps, distance, and time
+  - **Swimming**: Track laps, time, and heart rate
 - **Smart Calorie Calculation**: Each activity type has its own calorie-burning formula
 - **Activity History**: View all logged activities with timestamps
 
@@ -41,7 +41,7 @@ A Windows desktop application built with C# and Windows Forms that helps users t
 
 ---
 
-## ?? Project Structure
+## Project Structure
 
 ```
 Fitness Tracker/
@@ -79,7 +79,7 @@ Fitness Tracker/
 
 ---
 
-## ?? Requirements
+## Requirements
 
 - **Operating System**: Windows 7 or later
 - **IDE**: Visual Studio 2017 or later (Community Edition works fine)
@@ -93,7 +93,7 @@ Fitness Tracker/
 
 ---
 
-## ?? Installation & Setup
+## Installation & Setup
 
 ### Step 1: Clone or Download the Project
 
@@ -121,7 +121,7 @@ Visual Studio should automatically restore the project. If not:
 
 ---
 
-## ?? How to Run
+## How to Run
 
 ### Running from Visual Studio
 
@@ -143,9 +143,9 @@ Visual Studio should automatically restore the project. If not:
 
 ---
 
-## ?? Usage Guide
+## Usage Guide
 
-### 1?? First Time Setup - Registration
+### 1. First Time Setup - Registration
 
 1. When you launch the app, you'll see the **Login Form**
 2. Click the **Register** button
@@ -155,20 +155,20 @@ Visual Studio should automatically restore the project. If not:
 4. Click **Register** to create your account
 5. You'll be redirected to login
 
-### 2?? Login to Your Account
+### 2. Login to Your Account
 
 1. Enter your **Username** and **Password**
 2. Click **Login**
 3. If login fails 3 times, you'll receive a security warning
 4. Upon successful login, the **Dashboard** opens
 
-### 3?? Set Your Calorie Goal
+### 3. Set Your Calorie Goal
 
 1. In the **Dashboard**, enter your desired **Calorie Goal**
 2. Click **Set Goal** to save it
 3. Your goal is now active and will display in the status area
 
-### 4?? Add Activities
+### 4. Add Activities
 
 1. Select an **Activity Type** from the dropdown:
    - **Walking**: Enter steps, distance (km), and time (minutes)
@@ -178,7 +178,7 @@ Visual Studio should automatically restore the project. If not:
 3. Click **Add Activity**
 4. Your activity is added to the history and calories are calculated automatically
 
-### 5?? Monitor Your Progress
+### 5. Monitor Your Progress
 
 1. View the **Total Calories Burned** in the dashboard
 2. Check if you've **Achieved Your Goal** (status will display)
@@ -187,7 +187,7 @@ Visual Studio should automatically restore the project. If not:
 
 ---
 
-## ??? Technical Details
+## Technical Details
 
 ### Calorie Calculation Formulas
 
@@ -218,7 +218,7 @@ Calories = (Laps × 30) + (Time × 8) + (Heart Rate × 0.5)
 
 ---
 
-## ??? Project Architecture
+## Project Architecture
 
 ### Design Patterns Used
 
@@ -252,7 +252,7 @@ ProgressForm (Optional - View Progress)
 
 ---
 
-## ?? Troubleshooting
+## Troubleshooting
 
 | Issue | Solution |
 |-------|----------|
@@ -264,7 +264,7 @@ ProgressForm (Optional - View Progress)
 
 ---
 
-## ?? Example Workflow
+## Example Workflow
 
 ```
 1. Register: Username = "john123", Password = "MyPassword21"
@@ -285,7 +285,7 @@ ProgressForm (Optional - View Progress)
 
 ---
 
-## ?? Contributing
+## Contributing
 
 If you'd like to improve this project, feel free to:
 1. Fork the repository
@@ -296,32 +296,32 @@ If you'd like to improve this project, feel free to:
 
 ---
 
-## ?? License
+## License
 
 This project is open source and available on GitHub at [Saidul00005/Fitness-Tracker](https://github.com/Saidul00005/Fitness-Tracker)
 
 ---
 
-## ?? Author
+## Author
 
 Created by **Saidul00005**
 
 ---
 
-## ?? Tips for Enhancement
+## Tips for Enhancement
 
 Future improvements could include:
-- ?? Database integration for data persistence
-- ?? Chart and graph visualization of progress
-- ?? Mobile companion app
-- ? Reminder notifications
-- ?? Multiple goal types (steps, distance, etc.)
-- ?? Weekly/monthly statistics
-- ?? Dark mode UI option
+- Database integration for data persistence
+- Chart and graph visualization of progress
+- Mobile companion app
+- Reminder notifications
+- Multiple goal types (steps, distance, etc.)
+- Weekly/monthly statistics
+- Dark mode UI option
 
 ---
 
-## ? FAQ
+## FAQ
 
 **Q: Can I run this on macOS or Linux?**  
 A: This application uses Windows Forms and requires Windows. For cross-platform support, you would need to refactor to use a framework like MAUI or WPF.
@@ -337,4 +337,4 @@ A: Yes! Create new classes that inherit from the `Activity` base class and imple
 
 ---
 
-**Happy Tracking! ????? Stay fit and achieve your goals!**
+**Happy Tracking! Stay fit and achieve your goals!**
